@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+     
+    <!-- font google -->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet"> 
+
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+      
+      <!-- navigation 1-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom d-none-sm d-none-xs" id="mainNav">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+              <!--  -->
+                <!-- <span class="logo" style="color:#fff;">Back2Bachpan</span> -->
+                <span class="logo" style="color:#fff;">Back2Bachpan</span>
+                <!-- style="color:rgb(198, 226, 250) -->
+            </a>
+      
+              <ul class="nav ml-auto justify-content-center">
+                <span><li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-facebook"></a></i></li></span>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+             </div>
+        </div>
+    </nav>
+    <!-- navigation 1 -->
+
+
+    <!-- navigation 2 -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-2">
+     <div class="container">
+
+       <a href="" class="navbar-brand"><img class="mx-auto d-block" src="logo.png" alt="logo of b2b" height="60"></a>
+      
+         
+       <button type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" class="navbar-toggler navbar-toggler-right" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars ml-1"></i></button>
+     <div class="collapse navbar-collapse" id="navbarResponsive">
+      
+    
+      <ul class="navbar-nav text-uppercase ml-auto">
+             <li class="nav-item">
+                 <a href="#home" class="nav-link">Home</a>
+             </li>
+             <li class="nav-item">
+                <a href="#aboutMe" class="nav-link">About</a>
+            </li>
+          
+            <li class="nav-item">
+                <a href="#project" class="nav-link">Projects</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#demo" class="nav-link">Testimonials</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#contact-page" class="nav-link">Contact Us</a>
+            </li>
+
+         
+        </ul>
+
+     </div>
+    </nav>
+    <!-- navigation 2 -->
+
+    <!-- Hero -->
+    <header id="header">
+      <div class="container">
+        <div class="banner-text my-4">
+          <div class="text-area">
+            <h1 id="display-3" style="color:rgb(256,256,256);">Come Play with Us<span class="typing color"></span></h1>
+            <!-- style="color:rgb(177, 218, 253)">Come Play with Us<s -->
+          <p class="text-height-1 sub-title" style="color: rgb(207, 233, 255)">We at Back2Bachpan bring Traditional Games to the Forefront</p>
+          <p class="banner-btn">
+            <a href="#aboutMe" class="active">Click Here</a>
+          </p> 
+        </div>
+        </div>
+      </div>
+    </header>
+    <!-- Hero -->
+
+    <!-- About Us -->
+       <div class="about" id="aboutMe">
+         <div class="container my-2 py-3">
+           <div class="row padding">
+             <div class="col-lg-7 col-md-6 col-sm-12 col-12 my-4">
+               <h2 class="text-center">About <span>us</span> </h2>
+      <p class="text-center font-weight-light text-secondary">
+
+    <strong> Back2Bachpan</strong> founded in 2019 are serving the vulnerable, marginalized, poor, middle class, depressed and stressed and other people in general which are in dire need of support to mininmize the sufferings.A Group of professional social workers, psychologists, counselors and humanitarians deeply studied these obstacles and sufferings and found this professional organization that can minimize these sufferings. Initially the Organization had focus on psycho-social, physiological, peace building and personality development of the people </p>
+
+     
+              </div>
+    
+              <div class="col-lg-5 col-md-6 col-sm-12 col-12 my-4">
+                <img src="about.jpg" alt="" class="mx-auto d-block img-fluid rounded">
+              </div>
+           </div>
+        </div>
+       </div>
+    <!-- About Us -->
+
+
+   <!-- Project -->
+<section class="project-area" id="project">
+  <div class="container my-4 py-5">
+    <div class="row">
+      <div class="col text-center">
+       <h2>Our Projects</h2>
+
+       <p>Lorem ipsum dolor sit Lorem ipsum</p>
+      </div>
+    </div>
+      <div class="row mt-5">
+       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+         
+       <div class="card mb-4 box-shadow">
+              <img class="card-img-top img-fluid" src="cards_image.jpg">
+              <div class="card-body">
+                
+                <div class="text-center">
+                  <h5 class="card-text text-left"> CharminarChichas <span  style="color: #323d68;">Vs  Miyabhai Match</span>  <span style="color: #974b49;" ></span> </h5>
+                  <!-- <p class="text-justify text-dark">Phitto / Seven Stones / Lingorcha / Lagori / Satodiyu / Lingouch</p> -->
+                   <p class="text-secondary text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique alias magni blanditiis non, voluptatibus veniam  <br>  <a href="#" target="_blank" style="color: #323d68;">Read More <i class="fa fa-angle-double-right"></i></a></p>
+                  
+
+                  </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+         
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top img-fluid" src="cards_image_2.jpg">
+            <div class="card-body">
+              
+              <div class="text-center">
+              <h5 class="card-text"> Project <span> 2</span></h5>
+              <p class="text-secondary text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, sunt! Lorem ipsum dolor sit amet consectetur  <br>  <a href="#" target="_blank" style="color: #323d68;">Read More <i class="fa fa-angle-double-right"></i></a></p>
+            
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+         
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top img-fluid" src="card_image_3.jpg">
+          <div class="card-body">
+           
+            <div class="text-center">
+              <h5 class="card-text"> Project  <span>3</span> </h5>
+              <p class="text-secondary text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda pariatur animi quam voluptate, amet  <br>  <a href="#" target="_blank" style="color: #323d68;">Read More <i class="fa fa-angle-double-right"></i></a></p>
+              </div>
+        </div>
+      </div>
+    </div>
+
+ 
+     
+    </div>
+  </div>
+</section>
+<!-- Project -->
+
+ 
+
+ 
+<!-- Carousel Begins -->
+<div id="demo" class="carousel slide carousel-fade py-5 mb-5" data-ride="carousel" data-interval="4000">
+    <h2 class="text-center" style="color: #974b49;">Testim<span style="color: #3b557d;">onials</span></h2>
+
+    <!-- carousel-indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="1"></li>
+  <li data-target="#demo" data-slide-to="2"></li>
+</ol>
+<!-- carousel-indicators -->
+
+  <!-- The SlideShow -->
+  <div class="carousel-inner">
+    
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <div class="container">
+      <div style="height: 150px;">
+      <div class="my-4 text-center">
+      
+        <p class="text-secondary lead font-italic">"Charminar Chichas Vs Masab Tank Match Enjoyed a lot"</p>
+        <p style="color: #3b557d;" class="my-4 font-weight-bold"> - Abdul Khaliq</p>
+    </div>
+  </div>
+  </div>
+    </div>
+    <!-- Slide 1 -->
+
+    <!-- Slide 2 -->
+    <div class="carousel-item not-active">
+      <div class="container">
+      <div style="height: 150px;">
+      <div class="my-4 text-center">
+        <p class="text-secondary lead font-italic">"Back2Bachpan is a great initiative and a need of the Hour"</p>
+         <p style="color: #3b557d;" class="my-4 font-weight-bold"> - Charles Thompson</p>
+         </div>
+        </div>
+        </div>
+    </div>
+    <!-- Slide 2 -->
+
+    <!-- Slide 3 -->
+    <div class="carousel-item not-active">
+      <div class="container">
+      <div style="height: 150px;">
+      <div class="my-4 text-center">
+        <p class="text-secondary lead font-italic">"I thank Back2Bachpan for organizing these games Understanding us Old People Bonhomie"</p>
+        <p style="color: #3b557d;" class="my-4 font-weight-bold"> - participant at back2bachpan</p>
+         </div>
+        </div>
+        </div>
+    </div>
+    <!-- Slide 3 -->
+  </div>
+  <!-- The SlideShow -->
+
+<!-- Arrows -->
+
+
+<!-- Arrows -->
+
+</div>
+<!-- Carousel Ends -->
+  
+<!-- contact form -->
+<section id="contact-page">
+<div class="container contact-form">
+  <h2 class="text-center" style="color: white;">Contact us</h2>
+  <hr>
+  <div class="row">
+  <div class="col-md-6">
+  <address>Hyderbad, India</address>
+  <p>Email: info.back2bachpan@gmail.com</p>
+  <p>Phone:- 9440656518</p>
+  <div class="social-icons">
+    <div class="icon"><a class="text-white" href="https://www.facebook.com/back2bachpan/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook p-2"></a></i> - <span class="lead">Facebook</span></div>
+  <div class="icon"><a class="text-white" href="http://" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin p-2"></a></i> - <span class="lead">Linkedin</span></div>
+  <div class="icon"><a class="text-white"  href="http://" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter p-2"></a></i> - <span class="lead">Twitter</span></div>
+  
+</div>
+  </div>
+  
+  <div class="col-md-6">
+    <form action="contactform.php" method="post">
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" name="name" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" name="email" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label>Phone</label>
+      <input type="text" name="phone" class="form-control">    
+
+</div>
+    <div class="form-group">
+      <label>Message</label>
+      <textarea rows="5" name="message" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-primary btn-block" type="submit" name="submit">Send</button>
+    </div>
+    </form>
+  
+  </div>
+
+</div>
+</div>
+</section>
+<!-- contact form -->
+
+<!-- Footer -->
+<footer style="background-color: rgba(11, 28, 98, 1);" class= "page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="color: #fff; letter-spacing: 3px;">© 2021 Copyright:
+    <a href="#" class="text-white"> Back2Bachpan.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- footer -->
+    <!-- Optional JavaScript -->
+ 
+   
+      
+<!-- n -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

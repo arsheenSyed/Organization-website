@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+* {
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+     height: 100%;
+
+     width: 100%;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+
+
+
+/* ------------- Navigation ---------------------- */
+
+.logo {
+    color: #fff;
+}
+
+.navbar-custom {
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+    background-color: rgb(11, 28, 98);
+    /* background-color: rgb(24, 35, 51); */
+    /* background-color: #323d68; */
+}
+
+.navbar-custom .navbar-brand .logo {
+    /* font-weight: bold; */
+    /* letter-spacing: 2px; */
+       letter-spacing: 1px;
+       /* font-weight: bold; */
+}
+
+.navbar-custom ul.navbar-nav li.nav-item a.nav-link {
+    font-weight: 500;
+    /* color: rgb(207, 233, 255); */
+}
+/* ------------------------- Navigation ENd ------------- */
+/* ------------------ Navigation 2------------------------- */
+.navbar-custom .fa{
+    padding: 10px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    }
+    
+    .navbar-custom .fa:hover {
+        opacity: 0.7;
+        -moz-opacity: 0.7;
+       
+    }
+    
+    .navbar-custom .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    
+    .navbar-custom .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .navbar-custom .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+    
+.navbar-2 .fa{
+padding: 10px;
+font-size: 10px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+}
+
+.navbar-2 .fa:hover {
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+}
+
+.navbar-2 .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.navbar-2 .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.navbar-2 .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+
+/* --------------------- Navigation-2 ----------------------- */
+/* ------------------------ Hero ------------------------ */
+header {
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('hero.jpg'); */
+   background-image:linear-gradient(rgba(0, 141, 196, 0.9), rgba(0, 141, 196, 0.5)), url('banner2.jpg');
+    background-image: -moz-linear-gradient(rgba(0, 141, 196, 0.9), rgba(0, 141, 196, 0.5)), url('banner2.jpg');
+  background-image: -webkit-linear-gradient(rgba(0, 141, 196, 0.9), rgba(0, 141, 196, 0.5)), url('banner2.jpg');
+  background-image: -o-linear-gradient(rgba(0, 141, 196, 0.9), rgba(0, 141, 196, 0.5)), url('banner2.jpg');
+  background-color:rgba(0, 141, 196, 0.9); 
+  color: #fff;
+   height: 80vh;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-position: center;
+   background-repeat: repeat;
+   position: relative;
+   
+}
+
+
+.banner-text {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.banner-text #intro {
+    font-size: 25px;
+
+}
+
+.banner-btn a {
+    font-size: 12px;
+    border: 1px solid #fff;
+    border-radius: 3%;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 7px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+}
+
+
+
+.banner-btn a.active {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+   /* background: #E63219;
+   border-color: #E63219; */
+   /* background: #d2555c; */
+   background: #ac504d;
+   border-color: #ac504d;
+   color: #fff; 
+   vertical-align: middle;
+   white-space: nowrap;
+}
+
+.banner-btn a.active:hover {
+    opacity: .8;
+    -moz-opacity: .8;
+    transition: ease .2s;
+    -webkit-transition: all .2s;
+    -moz-transition:    all .2s;
+    -o-transition:      all .2s;
+    -ms-transition:     all .2s;
+    transition:         all .2s;
+}
+
+/* ------------------------- Hero End --------------------- */
+/* ----------------------- About Me ------------------------- */
+
+.about h2 {
+    color: #974b49;
+  /* color: #fa4453; */
+letter-spacing: 3px;
+font-weight: 500;
+
+
+}
+
+.about h2 span {
+color: #3b557d;
+}
+
+.about p {
+    line-height: 1.7;
+    font-size: 15px;
+    /* color: #411322; */
+    color: #182333;
+}
+
+.about p span {
+    color: #182333;
+}
+/* ------------------------ ABout Me ------------------------- */
+
+
+/* ------------------------ Project Section -------------------- */
+
+/* section.team {
+    background-color: #333;
+}
+
+section.team .img-area {
+    display: inline;
+    overflow: hidden;
+} */
+
+section.project-area {
+    background-image: linear-gradient(rgba(159, 39, 45, 0.8), rgba(156, 39, 45, 0.8)), url("projectBackground.jpg");
+   background-image: -webkit-linear-gradient(rgba(159, 39, 45, 0.8), rgba(156, 39, 45, 0.8)), url("projectBackground.jpg");
+   background-image: -moz-linear-gradient(rgba(159, 39, 45, 0.8), rgba(156, 39, 45, 0.8)), url("projectBackground.jpg");
+   background-image: -o-linear-gradient(rgba(159, 39, 45, 0.8), rgba(156, 39, 45, 0.8)), url("projectBackground.jpg");
+   background-color: rgba(156, 39, 45, 0.8);
+    background-size: cover;
+    -moz-baackground-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+
+    /* background: #a66563; */
+      /* background: rgba(20, 37, 104, 0.8); */
+      /* background: rgb(47, 63, 104,0.9); */
+}
+
+
+section.project-area h2 , section.project-area p {
+    color: #fff;
+    /* font-weight: bolder; */
+}
+
+section.project-area .card {
+    background-color: #fff;
+    
+}
+
+/* section.project-area .card-img-top{
+width: 100%;
+height: 40vh;
+object-fit: cover;
+} */
+
+
+section.project-area .card h5.card-text{
+   /* color: #466697; */
+   /* color:  #125688; */
+   /* color: #9f4643; */
+   /* color: #323d68; */
+   color: #974b49;
+
+   font-weight: 500;
+    /* color: #3b557d; */
+    /* color:#3b557d; */
+    letter-spacing: 1px;
+}
+
+section.project-area .card h5.card-text span {
+  /* color:rgb(0, 141, 196); */
+  color: #323d68;
+}
+
+
+
+/* section.project-area .card img {
+    height: auto;
+} */
+
+section.project-area .card-body a {
+    letter-spacing: 3px;
+}
+
+/* -------------------------- Project Ends ------------------------ */
+
+
+
+/* ---------------------- Carousel Begins ----------------------------- */
+
+.carousel-fade .carousel-item {
+opacity: 0;
+-moz-opacity: 0;
+transition-duration: 2s;
+-webkit-transition-duration: 2s;
+-moz-transition-duration: 2s;
+-o-transition-duration: 2s;
+transition-property: opacity;
+-webkit-transition-property: opacity;
+-moz-transition-property: opacity;
+-o-transition-property: opacity;
+
+
+} 
+
+#demo .carousel-inner .carousel-item p {
+    letter-spacing: 2px;
+}
+
+.carousel h2 {
+    letter-spacing: 3px;
+}
+
+.carousel-fade .carousel-item.active {
+    opacity: 1;
+    -moz-opacity: 1;
+
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev {
+opacity: 1;
+-moz-opacity: 1;
+
+}
+
+.carousel-fade .active.carousel-item-next,
+.carousel-fade .active.carousel-item-prev {
+     opacity: 0;
+     -moz-opacity: 0;
+
+}
+
+.carousel-fade .active.carousel-item-next,
+.carousel-fade .active.carousel-item-prev,
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev {
+    transform: translateX(0);
+    transform: translate3d(0,0,0);
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 10px!important;
+   height: 10px!important;
+   border: 2px solid #974b49;
+}
+
+.carousel-indicators .active {
+    background-color: #974b49!important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    opacity: 1;
+    -moz-opacity: 1;
+
+}
+
+
+
+/* ------------------------ Carousel Ends ------------------------------- */
+
+/* --------------------------Contact form ----------------------------- */
+section#contact-page {
+    background-image:  linear-gradient(#323d68, rgba(11, 28, 98, 0.8), rgba(156, 39, 45, 0.8)), url(connect.png);
+    background-image:  -o-linear-gradient(#323d68, rgba(11, 28, 98, 0.8), rgba(156, 39, 45, 0.8)), url(connect.png);
+    background-image: -webkit-linear-gradient(#323d68, rgba(11, 28, 98, 0.8), rgba(156, 39, 45, 0.8)), url(connect.png);
+    background-image: -moz-linear-gradient(#323d68, rgba(11, 28, 98, 0.8), rgba(156, 39, 45, 0.8)), url(connect.png);
+     background-color: rgba(11, 28, 98, 0.8);
+    background-size: cover;
+     letter-spacing: 2px;
+    /* color: rgb(24, 35, 51); */
+}
+
+
+hr {
+    background: white;
+
+}
+
+.contact-form {
+    /* background: rgba(0,0,0,.6); */
+    color: #fff;
+
+    /* margin-top: 100px; */
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+
+}
+
+
+
+
+
+/* ------------------------- contact form ------------------------------- */
+
+/* ---------------------------- Footer ------------------------------------ */
+
+footer div.footer-copyright {
+letter-spacing: 3px;
+}
+
+/* -------------------------- Footer -------------------------------------- */
+/* ----------------------- Media Queries --------------------------------- */
+
+@media (max-width: 576px) {
+
+    .navbar-custom {
+        display: none;
+    }
+
+    /* .navbar-2 {
+       position: fixed;
+       top: 0;
+       width: 100%;
+       z-index: 5000;
+    } */
+
+    .navbar-2 img {
+        height: 40px;
+    }
+
+   .banner-text h1 {
+       font-size: 30px;
+   }
+  .banner-text p {
+      font-size: 14px;
+  }
+
+
+}
+
+
+@media (max-height: 576px) {
+
+    header#header p.sub-title {
+        display: none;
+    }
+
+    .about#aboutMe h2 {
+        font-size: 28px;
+    }
+
+    .about#aboutMe p {
+        text-align: justify!important;
+    }
+
+   .project-area h2 {
+       font-size: 28px;
+   }
+
+   .project-area p {
+       font-size: 14px;
+   }
+
+  #demo h2 {
+    font-size: 28px;
+  }
+
+  #demo .carousel-item p.lead {
+      font-size: 15px!important;
+  }
+
+  #contact-page h2 {
+      font-size: 28px;
+  }
+}
